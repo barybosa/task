@@ -1,0 +1,8 @@
+* {
+	box-sizing: border-box;
+	/* Please provide files of Inter font, I'm using Roboto for now */
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}

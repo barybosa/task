@@ -1,0 +1,63 @@
+[
+	{
+		"id": "1",
+		"userId": "u1",
+		"name": "John",
+		"surname": "Doe",
+		"text": "This is a great post!",
+		"vote": 5,
+		"date": "2023-08-29T10:00:00Z",
+		"profilePicture": "./profile-pictures/u1.jpg",
+		"isOnline": false,
+		"children": [
+			{
+				"id": "2",
+				"userId": "u2",
+				"name": "Alice",
+				"surname": "Smith",
+				"text": "I completely agree, John.",
+				"vote": 3,
+				"date": "2023-08-29T11:00:00Z",
+				"profilePicture": "./profile-pictures/u2.jpg",
+				"isOnline": true,
+				"children": [
+					{
+						"id": "3",
+						"userId": "u3",
+						"name": "Bob",
+						"surname": "Johnson",
+						"text": "Well, I have a different perspective on this.",
+						"vote": -2,
+						"date": "2023-08-29T11:30:00Z",
+						"isOnline": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "4",
+				"userId": "u4",
+				"name": "Charlie",
+				"surname": "Brown",
+				"text": "Interesting take on the topic!",
+				"vote": 2,
+				"date": "2023-08-29T12:00:00Z",
+				"profilePicture": "./profile-pictures/u4.jpg",
+				"isOnline": true,
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "5",
+		"userId": "u5",
+		"name": "James",
+		"surname": "Williams",
+		"text": "Thanks for sharing this.",
+		"vote": 7,
+		"date": "2023-08-29T13:00:00Z",
+		"profilePicture": "./profile-pictures/u5.jpg",
+		"isOnline": false,
+		"children": []
+	}
+]

@@ -1,0 +1,35 @@
+{
+	"globals": {
+		"JSX": "readonly",
+		"NodeJS": "readonly"
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:import/recommended",
+		"plugin:import/typescript"
+	],
+	"parser": "@typescript-eslint/parser",
+	"rules": {
+		"indent": 0, // Using with prettier (https://stackoverflow.com/questions/56337176/prettier-and-eslint-indents-not-working-together)
+		"no-mixed-spaces-and-tabs": ["warn", "smart-tabs"],
+		"quotes": ["error", "double"],
+		"semi": ["error", "always"],
+		"camelcase": "error",
+		"react/jsx-sort-props": "error",
+		"react/display-name": 0,
+		"import/order": [
+			"error",
+			{
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				}
+			}
+		],
+		"@typescript-eslint/no-non-null-assertion": 0,
+		"@typescript-eslint/no-explicit-any": 0
+	}
+}
